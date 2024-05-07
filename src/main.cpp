@@ -1,29 +1,40 @@
+// system include files
 #include <iostream>
-#include "BusinessLogic.h"
-#include "JsonDocument.h"
+// project include files
+#include "businesslogic/BusinessLogic.h"
+#include "document/json/JsonDocument.h"
+
+void printHelp() {
+    std::cout << "Usage: ./program <FILENAME>\n"
+              << "Arguments:\n"
+              << "  <FILE>    The JSON file to parse.\n"
+              << "Options:\n"
+              << "  --help    Show this help message and exit.\n";
+}
 
 int main(int argc, char *argv[]) {
-    if (argc != 2) {
-        std::cerr << "Usage: " << argv[0] << " <JSON_FILE>" << std::endl;
+    using namespace detector;
+       if (argc != 2 || std::string(argv[1]) == "--help") {
+        printHelp();
         return 1;
     }
 
-    const char *jsonFilename = argv[1];
-    BusinessLogic rectManager;
-    JsonDocument jsonParser;
+    const char *filename = argv[1];
+    std::shared_ptr<document::JsonDocument> doc = std::make_shared<document::JsonDocument>();
+    std::shared_ptr<bussinesslogic::BusinessLogic> businessLogic;
 
-    auto file = jsonParser.load(jsonFilename);
-
-    if (jsonParser.load(jsonFilename)) {
+    if (doc->load(filename)) {
         std::cout << "File has been parsed successfully" << std::endl;
-        rectManager.loadRectanglesFromJSON(jsonParser);
+        loader::Loader loader(doc);
+        businessLogic = std::make_shared<bussinesslogic::BusinessLogic>(loader.getShapes().value());
+
     } else {
         std::cerr << "Failed to parse JSON file." << std::endl;
         return 1;
     }
 
-    rectManager.printRectangles();
-    rectManager.printIntersections();
+    businessLogic->printRectangles();
+    businessLogic->printIntersections();
 
     return 0;
 }

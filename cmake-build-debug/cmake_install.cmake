@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/c/Users/ctw02488/Documents/Tests/Nitro
+# Install script for directory: /mnt/c/Users/ctw02488/Documents/Tests/NitroCppTest-JoseArtur
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/mnt/c/Users/ctw02488/Documents/Tests/Nitro/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/mnt/c/Users/ctw02488/Documents/Tests/NitroCppTest-JoseArtur/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

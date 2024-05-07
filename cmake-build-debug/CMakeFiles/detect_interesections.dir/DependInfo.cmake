@@ -8,20 +8,17 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/mnt/c/Users/ctw02488/Documents/Tests/Nitro/src/BusinessLogic.cpp" "CMakeFiles/detect_interesections.dir/src/BusinessLogic.cpp.o" "gcc" "CMakeFiles/detect_interesections.dir/src/BusinessLogic.cpp.o.d"
-  "/mnt/c/Users/ctw02488/Documents/Tests/Nitro/src/Intersection.cpp" "CMakeFiles/detect_interesections.dir/src/Intersection.cpp.o" "gcc" "CMakeFiles/detect_interesections.dir/src/Intersection.cpp.o.d"
-  "/mnt/c/Users/ctw02488/Documents/Tests/Nitro/src/JsonDocument.cpp" "CMakeFiles/detect_interesections.dir/src/JsonDocument.cpp.o" "gcc" "CMakeFiles/detect_interesections.dir/src/JsonDocument.cpp.o.d"
-  "/mnt/c/Users/ctw02488/Documents/Tests/Nitro/src/Rectangle.cpp" "CMakeFiles/detect_interesections.dir/src/Rectangle.cpp.o" "gcc" "CMakeFiles/detect_interesections.dir/src/Rectangle.cpp.o.d"
-  "/mnt/c/Users/ctw02488/Documents/Tests/Nitro/src/ShapeIntersector.cpp" "CMakeFiles/detect_interesections.dir/src/ShapeIntersector.cpp.o" "gcc" "CMakeFiles/detect_interesections.dir/src/ShapeIntersector.cpp.o.d"
-  "/mnt/c/Users/ctw02488/Documents/Tests/Nitro/src/main.cpp" "CMakeFiles/detect_interesections.dir/src/main.cpp.o" "gcc" "CMakeFiles/detect_interesections.dir/src/main.cpp.o.d"
+  "/mnt/c/Users/ctw02488/Documents/Tests/NitroCppTest-JoseArtur/src/businesslogic/BusinessLogic.cpp" "CMakeFiles/detect_interesections.dir/src/businesslogic/BusinessLogic.cpp.o" "gcc" "CMakeFiles/detect_interesections.dir/src/businesslogic/BusinessLogic.cpp.o.d"
+  "/mnt/c/Users/ctw02488/Documents/Tests/NitroCppTest-JoseArtur/src/document/json/JsonDocument.cpp" "CMakeFiles/detect_interesections.dir/src/document/json/JsonDocument.cpp.o" "gcc" "CMakeFiles/detect_interesections.dir/src/document/json/JsonDocument.cpp.o.d"
+  "/mnt/c/Users/ctw02488/Documents/Tests/NitroCppTest-JoseArtur/src/intersection/Intersection.cpp" "CMakeFiles/detect_interesections.dir/src/intersection/Intersection.cpp.o" "gcc" "CMakeFiles/detect_interesections.dir/src/intersection/Intersection.cpp.o.d"
+  "/mnt/c/Users/ctw02488/Documents/Tests/NitroCppTest-JoseArtur/src/loader/Loader.cpp" "CMakeFiles/detect_interesections.dir/src/loader/Loader.cpp.o" "gcc" "CMakeFiles/detect_interesections.dir/src/loader/Loader.cpp.o.d"
+  "/mnt/c/Users/ctw02488/Documents/Tests/NitroCppTest-JoseArtur/src/main.cpp" "CMakeFiles/detect_interesections.dir/src/main.cpp.o" "gcc" "CMakeFiles/detect_interesections.dir/src/main.cpp.o.d"
+  "/mnt/c/Users/ctw02488/Documents/Tests/NitroCppTest-JoseArtur/src/shape/rectangle/Rectangle.cpp" "CMakeFiles/detect_interesections.dir/src/shape/rectangle/Rectangle.cpp.o" "gcc" "CMakeFiles/detect_interesections.dir/src/shape/rectangle/Rectangle.cpp.o.d"
+  "/mnt/c/Users/ctw02488/Documents/Tests/NitroCppTest-JoseArtur/src/shapeintersector/ShapeIntersector.cpp" "CMakeFiles/detect_interesections.dir/src/shapeintersector/ShapeIntersector.cpp.o" "gcc" "CMakeFiles/detect_interesections.dir/src/shapeintersector/ShapeIntersector.cpp.o.d"
   )
 
-# Targets to which this target links which contain Fortran sources.
-set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
-  )
-
-# Targets to which this target links which contain Fortran sources.
-set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
   )
 
 # Fortran module output directory.

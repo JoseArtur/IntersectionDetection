@@ -4,8 +4,8 @@
 
 
 # Configuration directories and files
-SourceDirectory: /mnt/c/Users/ctw02488/Documents/Tests/Nitro
-BuildDirectory: /mnt/c/Users/ctw02488/Documents/Tests/Nitro/cmake-build-debug
+SourceDirectory: /mnt/c/Users/ctw02488/Documents/Tests/NitroCppTest-JoseArtur
+BuildDirectory: /mnt/c/Users/ctw02488/Documents/Tests/NitroCppTest-JoseArtur/cmake-build-debug
 
 # Where to place the cost data store
 CostDataFile: 
@@ -21,13 +21,12 @@ LabelsForSubprojects:
 
 # Submission information
 SubmitURL: http://
-SubmitInactivityTimeout: 
 
 # Dashboard start time
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/opt/cmake-3.28.1-linux-x86_64/bin/cmake" "/mnt/c/Users/ctw02488/Documents/Tests/Nitro"
+ConfigureCommand: "/usr/bin/cmake" "/mnt/c/Users/ctw02488/Documents/Tests/NitroCppTest-JoseArtur"
 MakeCommand: /usr/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 
@@ -45,7 +44,7 @@ SVNOptions:
 SVNUpdateOptions: 
 
 # Git options
-GITCommand: 
+GITCommand: /usr/bin/git
 GITInitSubmodules: 
 GITUpdateOptions: 
 GITUpdateCustom: 
@@ -58,9 +57,9 @@ P4UpdateOptions:
 P4UpdateCustom: 
 
 # Generic update command
-UpdateCommand: 
+UpdateCommand: /usr/bin/git
 UpdateOptions: 
-UpdateType: 
+UpdateType: git
 
 # Compiler info
 Compiler: /usr/bin/c++

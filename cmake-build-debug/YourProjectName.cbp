@@ -17,54 +17,6 @@
 					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/ctw02488/Documents/Tests/Nitro/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="detect_interesections">
-				<Option output="/mnt/c/Users/ctw02488/Documents/Tests/Nitro/cmake-build-debug/detect_interesections" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/c/Users/ctw02488/Documents/Tests/Nitro/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/mnt/c/Users/ctw02488/Documents/Tests/Nitro/src"/>
-					<Add directory="/mnt/c/Users/ctw02488/Documents/Tests/Nitro/external/googletest/include"/>
-					<Add directory="/usr/include/c++/11"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
-					<Add directory="/usr/include/c++/11/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/ctw02488/Documents/Tests/Nitro/cmake-build-debug/Makefile&quot;  VERBOSE=1 detect_interesections"/>
-					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/ctw02488/Documents/Tests/Nitro/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/ctw02488/Documents/Tests/Nitro/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/ctw02488/Documents/Tests/Nitro/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="detect_interesections/fast">
-				<Option output="/mnt/c/Users/ctw02488/Documents/Tests/Nitro/cmake-build-debug/detect_interesections" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/c/Users/ctw02488/Documents/Tests/Nitro/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/mnt/c/Users/ctw02488/Documents/Tests/Nitro/src"/>
-					<Add directory="/mnt/c/Users/ctw02488/Documents/Tests/Nitro/external/googletest/include"/>
-					<Add directory="/usr/include/c++/11"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
-					<Add directory="/usr/include/c++/11/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/ctw02488/Documents/Tests/Nitro/cmake-build-debug/Makefile&quot;  VERBOSE=1 detect_interesections/fast"/>
-					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/ctw02488/Documents/Tests/Nitro/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/ctw02488/Documents/Tests/Nitro/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/ctw02488/Documents/Tests/Nitro/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="Experimental">
 				<Option working_dir="/mnt/c/Users/ctw02488/Documents/Tests/Nitro/cmake-build-debug"/>
 				<Option type="4"/>
@@ -95,6 +47,54 @@
 					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/ctw02488/Documents/Tests/Nitro/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="detect_interesections">
+				<Option output="/mnt/c/Users/ctw02488/Documents/Tests/Nitro/cmake-build-debug/detect_interesections" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/ctw02488/Documents/Tests/Nitro/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/ctw02488/Documents/Tests/Nitro/external"/>
+					<Add directory="/mnt/c/Users/ctw02488/Documents/Tests/Nitro/src"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/ctw02488/Documents/Tests/Nitro/cmake-build-debug/Makefile&quot;  VERBOSE=1 detect_interesections"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/ctw02488/Documents/Tests/Nitro/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/ctw02488/Documents/Tests/Nitro/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/ctw02488/Documents/Tests/Nitro/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="detect_interesections/fast">
+				<Option output="/mnt/c/Users/ctw02488/Documents/Tests/Nitro/cmake-build-debug/detect_interesections" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/ctw02488/Documents/Tests/Nitro/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/ctw02488/Documents/Tests/Nitro/external"/>
+					<Add directory="/mnt/c/Users/ctw02488/Documents/Tests/Nitro/src"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/ctw02488/Documents/Tests/Nitro/cmake-build-debug/Makefile&quot;  VERBOSE=1 detect_interesections/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/ctw02488/Documents/Tests/Nitro/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/ctw02488/Documents/Tests/Nitro/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/ctw02488/Documents/Tests/Nitro/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="run_opt_test">
 				<Option output="/mnt/c/Users/ctw02488/Documents/Tests/Nitro/cmake-build-debug/run_opt_test" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/mnt/c/Users/ctw02488/Documents/Tests/Nitro/cmake-build-debug"/>
@@ -102,7 +102,8 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/mnt/c/Users/ctw02488/Documents/Tests/Nitro/external/googletest/include"/>
+					<Add directory="/mnt/c/Users/ctw02488/Documents/Tests/Nitro/external"/>
+					<Add directory="/mnt/c/Users/ctw02488/Documents/Tests/Nitro/src"/>
 					<Add directory="/usr/include/c++/11"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
 					<Add directory="/usr/include/c++/11/backward"/>
@@ -125,7 +126,8 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/mnt/c/Users/ctw02488/Documents/Tests/Nitro/external/googletest/include"/>
+					<Add directory="/mnt/c/Users/ctw02488/Documents/Tests/Nitro/external"/>
+					<Add directory="/mnt/c/Users/ctw02488/Documents/Tests/Nitro/src"/>
 					<Add directory="/usr/include/c++/11"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
 					<Add directory="/usr/include/c++/11/backward"/>
@@ -148,7 +150,8 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/mnt/c/Users/ctw02488/Documents/Tests/Nitro/external/googletest/include"/>
+					<Add directory="/mnt/c/Users/ctw02488/Documents/Tests/Nitro/external"/>
+					<Add directory="/mnt/c/Users/ctw02488/Documents/Tests/Nitro/src"/>
 					<Add directory="/usr/include/c++/11"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
 					<Add directory="/usr/include/c++/11/backward"/>
@@ -171,7 +174,8 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/mnt/c/Users/ctw02488/Documents/Tests/Nitro/external/googletest/include"/>
+					<Add directory="/mnt/c/Users/ctw02488/Documents/Tests/Nitro/external"/>
+					<Add directory="/mnt/c/Users/ctw02488/Documents/Tests/Nitro/src"/>
 					<Add directory="/usr/include/c++/11"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
 					<Add directory="/usr/include/c++/11/backward"/>
@@ -194,7 +198,8 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/mnt/c/Users/ctw02488/Documents/Tests/Nitro/external/googletest/include"/>
+					<Add directory="/mnt/c/Users/ctw02488/Documents/Tests/Nitro/external"/>
+					<Add directory="/mnt/c/Users/ctw02488/Documents/Tests/Nitro/src"/>
 					<Add directory="/usr/include/c++/11"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
 					<Add directory="/usr/include/c++/11/backward"/>
@@ -217,7 +222,8 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/mnt/c/Users/ctw02488/Documents/Tests/Nitro/external/googletest/include"/>
+					<Add directory="/mnt/c/Users/ctw02488/Documents/Tests/Nitro/external"/>
+					<Add directory="/mnt/c/Users/ctw02488/Documents/Tests/Nitro/src"/>
 					<Add directory="/usr/include/c++/11"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
 					<Add directory="/usr/include/c++/11/backward"/>
@@ -264,60 +270,60 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/mnt/c/Users/ctw02488/Documents/Tests/Nitro/src/BusinessLogic.cpp">
+		<Unit filename="/mnt/c/Users/ctw02488/Documents/Tests/Nitro/src/businesslogic/BusinessLogic.cpp">
 			<Option target="detect_interesections"/>
 			<Option target="run_opt_test"/>
 			<Option target="run_opt_test2"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/ctw02488/Documents/Tests/Nitro/src/BusinessLogic.h">
+		<Unit filename="/mnt/c/Users/ctw02488/Documents/Tests/Nitro/src/businesslogic/BusinessLogic.h">
 			<Option target="detect_interesections"/>
 			<Option target="run_opt_test"/>
 			<Option target="run_opt_test2"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/ctw02488/Documents/Tests/Nitro/src/Intersection.cpp">
+		<Unit filename="/mnt/c/Users/ctw02488/Documents/Tests/Nitro/src/document/json/JsonDocument.cpp">
 			<Option target="detect_interesections"/>
 			<Option target="run_opt_test"/>
 			<Option target="run_opt_test2"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/ctw02488/Documents/Tests/Nitro/src/Intersection.h">
+		<Unit filename="/mnt/c/Users/ctw02488/Documents/Tests/Nitro/src/document/json/JsonDocument.h">
 			<Option target="detect_interesections"/>
 			<Option target="run_opt_test"/>
 			<Option target="run_opt_test2"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/ctw02488/Documents/Tests/Nitro/src/JsonDocument.cpp">
+		<Unit filename="/mnt/c/Users/ctw02488/Documents/Tests/Nitro/src/intersection/Intersection.cpp">
 			<Option target="detect_interesections"/>
 			<Option target="run_opt_test"/>
 			<Option target="run_opt_test2"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/ctw02488/Documents/Tests/Nitro/src/JsonDocument.h">
-			<Option target="detect_interesections"/>
-			<Option target="run_opt_test"/>
-			<Option target="run_opt_test2"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/ctw02488/Documents/Tests/Nitro/src/Rectangle.cpp">
-			<Option target="detect_interesections"/>
-			<Option target="run_opt_test"/>
-			<Option target="run_opt_test2"/>
-			<Option target="run_ut_rectangle"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/ctw02488/Documents/Tests/Nitro/src/Rectangle.h">
-			<Option target="detect_interesections"/>
-			<Option target="run_opt_test"/>
-			<Option target="run_opt_test2"/>
-			<Option target="run_ut_rectangle"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/ctw02488/Documents/Tests/Nitro/src/ShapeIntersector.cpp">
-			<Option target="detect_interesections"/>
-			<Option target="run_opt_test"/>
-			<Option target="run_opt_test2"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/ctw02488/Documents/Tests/Nitro/src/ShapeIntersector.h">
+		<Unit filename="/mnt/c/Users/ctw02488/Documents/Tests/Nitro/src/intersection/Intersection.h">
 			<Option target="detect_interesections"/>
 			<Option target="run_opt_test"/>
 			<Option target="run_opt_test2"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/ctw02488/Documents/Tests/Nitro/src/main.cpp">
 			<Option target="detect_interesections"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ctw02488/Documents/Tests/Nitro/src/shape/rectangle/Rectangle.cpp">
+			<Option target="detect_interesections"/>
+			<Option target="run_opt_test"/>
+			<Option target="run_opt_test2"/>
+			<Option target="run_ut_rectangle"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ctw02488/Documents/Tests/Nitro/src/shape/rectangle/Rectangle.h">
+			<Option target="detect_interesections"/>
+			<Option target="run_opt_test"/>
+			<Option target="run_opt_test2"/>
+			<Option target="run_ut_rectangle"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ctw02488/Documents/Tests/Nitro/src/shapeintersector/ShapeIntersector.cpp">
+			<Option target="detect_interesections"/>
+			<Option target="run_opt_test"/>
+			<Option target="run_opt_test2"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ctw02488/Documents/Tests/Nitro/src/shapeintersector/ShapeIntersector.h">
+			<Option target="detect_interesections"/>
+			<Option target="run_opt_test"/>
+			<Option target="run_opt_test2"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/ctw02488/Documents/Tests/Nitro/tests/tests.cpp">
 			<Option target="run_opt_test"/>

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/run_ut_rectangle.dir/src/Rectangle.cpp.o"
-  "CMakeFiles/run_ut_rectangle.dir/src/Rectangle.cpp.o.d"
+  "CMakeFiles/run_ut_rectangle.dir/src/shape/rectangle/Rectangle.cpp.o"
+  "CMakeFiles/run_ut_rectangle.dir/src/shape/rectangle/Rectangle.cpp.o.d"
   "CMakeFiles/run_ut_rectangle.dir/tests/ut_Rectangle.cpp.o"
   "CMakeFiles/run_ut_rectangle.dir/tests/ut_Rectangle.cpp.o.d"
   "run_ut_rectangle"
