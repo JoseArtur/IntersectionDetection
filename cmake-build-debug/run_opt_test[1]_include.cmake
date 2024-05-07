@@ -1,0 +1,5 @@
+if(EXISTS "/mnt/c/Users/ctw02488/Documents/Tests/Nitro/cmake-build-debug/run_opt_test[1]_tests.cmake")
+  include("/mnt/c/Users/ctw02488/Documents/Tests/Nitro/cmake-build-debug/run_opt_test[1]_tests.cmake")
+else()
+  add_test(run_opt_test_NOT_BUILT run_opt_test_NOT_BUILT)
+endif()

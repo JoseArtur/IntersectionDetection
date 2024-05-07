@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/main_app.dir/src/main.cpp.o CMakeFiles/main_app.dir/src/Intersection.cpp.o CMakeFiles/main_app.dir/src/BusinessLogic.cpp.o CMakeFiles/main_app.dir/src/Rectangle.cpp.o CMakeFiles/main_app.dir/src/JsonDocument.cpp.o -o main_app 

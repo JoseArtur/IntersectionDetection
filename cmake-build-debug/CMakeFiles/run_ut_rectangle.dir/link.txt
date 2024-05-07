@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/run_ut_rectangle.dir/src/Rectangle.cpp.o CMakeFiles/run_ut_rectangle.dir/tests/ut_Rectangle.cpp.o -o run_ut_rectangle  /usr/lib/x86_64-linux-gnu/libgtest_main.a -lpthread /usr/lib/x86_64-linux-gnu/libgtest.a 
